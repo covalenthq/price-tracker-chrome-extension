@@ -7,7 +7,8 @@ Follow the steps below to set up your custom crypto price tracker powered by the
 To start, download and extract this repo on your local machine. Then open up the repo folder in your favourite code editor. 
 
 &nbsp;
-1. Add your `.png` extension icon image file to the project folder under `assets/`. By default, we use `omw_icon.png`.
+1. Add your `.png` extension icon image file to the project folder under `/assets`. By default, we use `omw_icon.png`.
+
 
 &nbsp;
 2. Update the `manifest.json` file with the extension name, description and default icon. Save your changes.
@@ -20,7 +21,7 @@ To start, download and extract this repo on your local machine. Then open up the
   "version": "1.0",
 
   "browser_action": {
-   "default_icon": "omw_icon.png",
+   "default_icon": "assets/omw_icon.png",
    "default_popup": "index.html"
   },
   "permissions": [
