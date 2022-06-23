@@ -21,7 +21,7 @@ To start, download and extract this repo on your local machine. Then open up the
   "version": "1.0",
 
   "browser_action": {
-   "default_icon": "assets/omw_icon.png",
+   "default_icon": "/assets/omw_icon.png",
    "default_popup": "index.html"
   },
   "permissions": [
